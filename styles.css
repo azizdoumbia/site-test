@@ -443,9 +443,9 @@ nav ul li a:focus,
   }
 
   .logo {
-    display: block;
-    margin: 0 auto;
-  }
+  display: block;
+  margin: 0 auto 10px auto;
+}
 
   .presentation-content {
     flex-direction: column;

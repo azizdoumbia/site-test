@@ -28,13 +28,14 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
-
-nav h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
-  color: #004E7C; /* Ajuste la couleur pour un bon contraste */
+.logo {
+  height: 50px;
+  width: auto;
+  object-fit: contain;
 }
-
+nav h1 {
+  margin: 0;
+}
 nav ul {
   display: flex;
   list-style: none;
@@ -293,7 +294,6 @@ nav ul li a:focus,
 
 #contact form {
   background: #fff;
-  padding: 40px 35px;     /* plus d'espace intérieur */
   border-radius: 12px;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
   font-family: 'Roboto', sans-serif;
@@ -442,11 +442,9 @@ nav ul li a:focus,
     justify-content: space-between;
   }
 
-  nav h1 {
-    font-size: 20px;
-    margin-bottom: 10px;
-    text-align: center;
-    width: 100%;
+  .logo {
+    display: block;
+    margin: 0 auto;
   }
 
   .presentation-content {
@@ -493,5 +491,3 @@ html {
   scroll-behavior: smooth;
    scroll-padding-top: 100px;
 }
-
-
